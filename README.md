@@ -1,42 +1,35 @@
-# Employee Manager GUI Application
+# Employee System GUI
 
-This Python program is a graphical user interface (GUI) application for managing employee information using Tkinter. It allows users to add, view, delete, and update the salary of employees.
+This Python application provides a graphical interface for managing employee records, leveraging the Tkinter library. It facilitates the addition, display, deletion, and salary updates of employees within a straightforward and user-friendly interface.
 
 ## Features
 
-- **Add Employee**: Add a new employee by entering their name, age, position, and salary.
-- **Print Employees**: Display a list of all employees in the system.
-- **Delete Employee**: Remove an employee from the system by selecting them from the list.
-- **Update Salary**: Update the salary of a selected employee.
+- **Add Employee**: Users can input employee details such as name, age, position, and salary to add them to the system.
+- **Display Employees**: The application provides a mechanism to view all current employees within the system.
+- **Delete Employee**: Users have the ability to remove an employee from the system by selecting their record from the list.
+- **Update Salary**: The salary details of an employee can be updated by selecting their record and entering a new salary amount.
 
-## Classes
+## Components
 
-- `Employee`: Represents an employee with attributes for name, age, position, and salary. It includes methods to get and set these attributes.
-- `EmployeeManagerGUI`: Manages the GUI components and interactions for the employee management system.
+- **Employee Class**: Defines the structure of an employee record, including methods to get and set employee attributes.
+- **Employee System GUI Class**: Manages the GUI elements and interactions, including the creation of input fields, buttons, and list boxes for displaying employee records.
 
-## GUI Components
+## User Interface
 
-- **Input Fields**: Text entry fields for entering employee name, age, position, and salary.
-- **Buttons**: Buttons for adding an employee, printing employee details, deleting an employee, and updating an employee's salary.
-- **List Boxes**: Two list boxes are used to display added employees and print employee details.
+- **Text Entry Fields**: For inputting the name, age, position, and salary of employees.
+- **Operational Buttons**: Dedicated buttons for adding a new employee, displaying all employees, deleting a selected employee, and updating the salary of a selected employee.
+- **List Boxes**: Employed for the listing and selection of employee records, facilitating user interaction for deletion and salary updates.
 
-## Usage
+## Getting Started
 
-1. **Run the Program**: Execute the script to launch the GUI application.
-2. **Add an Employee**: Fill in the input fields for name, age, position, and salary, and then click the "Add Employee" button.
-3. **View Employees**: Click the "Print Employees" button to display the list of all employees in the second list box.
-4. **Delete an Employee**: Select an employee from the first list box and click the "Delete Employee" button to remove them from the system.
-5. **Update an Employee's Salary**: Select an employee from the first list box, enter the new salary in the salary input field, and click the "Update Salary" button.
-6. **Quit**: Click the "Quit" button to exit the application.
+### Prerequisites
 
-## Installation
+Ensure Python is installed on your system. The Tkinter library, required for the GUI components, comes pre-installed with Python's standard library.
 
-Ensure you have Python installed on your system. This program requires the Tkinter library, which is included in standard Python installations.
+### Running the Application
 
-## Running the Program
-
-To run the program, navigate to the directory containing the script and execute it using Python:
+To launch the Employee System GUI, navigate to the directory containing the script and run the following command in your terminal or command prompt:
 
 ```bash
-python employee_manager_gui.py
+python employee_system_gui.py
 
